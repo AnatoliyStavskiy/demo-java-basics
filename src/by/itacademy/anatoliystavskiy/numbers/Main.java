@@ -3,7 +3,7 @@ package by.itacademy.anatoliystavskiy.numbers;
 
 public class Main {
     public static void main(String[] args) {
-        int number = 5;
+        int number = 4;
         System.out.println(StringOfNumbers(number));
     }
 
