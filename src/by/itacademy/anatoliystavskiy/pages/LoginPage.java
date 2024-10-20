@@ -10,6 +10,6 @@ public class LoginPage extends BasePage{
     }
     @Override
     public void open() {
-        System.out.println(LOGIN_PAGE + "/" + getTitle());
+        System.out.println("Пользователь открыл " + LOGIN_PAGE + "/" + getTitle());
     }
 }

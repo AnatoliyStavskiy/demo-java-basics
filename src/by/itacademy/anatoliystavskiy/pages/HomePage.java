@@ -4,13 +4,13 @@ public class HomePage extends BasePage{
     protected String HOME_URL = BASE_URL;
     String title = "Домашняя страница";
 
-    @Override
-    public void open() {
-        super.open();
-    }
-
     public String getTitle(){
         return title;
+    }
+
+    @Override
+    public void open() {
+        System.out.println("Пользователь открыл страницу " + HOME_URL + "/" + getTitle());
     }
 
     public void click(){
