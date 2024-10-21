@@ -1,9 +1,9 @@
 package by.itacademy.anatoliystavskiy.pages;
 
-public class BasePage {
+public abstract class BasePage {
     protected String BASE_URL = "BASE URL";
 
-    public void open(){
+    public void open() {
         System.out.println("Пользователь открыл страницу " + BASE_URL);
     }
 }
