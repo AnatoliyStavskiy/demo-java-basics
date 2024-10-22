@@ -15,5 +15,21 @@ public class CalculatorTest {
         By inputNameBy = By.xpath(inputNameXpath);
         WebElement inputNameWebElement = webDriver.findElement(inputNameBy);
         inputNameWebElement.sendKeys("John");
+
+        String inputHeightXpath = "/html/body/table/tbody/tr[2]/td[2]/form/table/tbody/tr[3]/td[2]/input";
+        By inputHeightBy = By.xpath(inputHeightXpath);
+        WebElement inputHeightWebElement = webDriver.findElement(inputHeightBy);
+        inputHeightWebElement.sendKeys("180");
+
+        String inputWeightXpath = "/html/body/table/tbody/tr[2]/td[2]/form/table/tbody/tr[4]/td[2]/input";
+        By inputWeightBy = By.xpath(inputWeightXpath);
+        WebElement inputWeightWebElement = webDriver.findElement(inputWeightBy);
+        inputWeightWebElement.sendKeys("75");
+
+        String ButtonCalculateXpath = "/html/body/table/tbody/tr[2]/td[2]/form/table/tbody/tr[6]/td/input";
+        By ButtonCalculateBy = By.xpath(ButtonCalculateXpath);
+        WebElement ButtonCalculateWebElement = webDriver.findElement(ButtonCalculateBy);
+        ButtonCalculateWebElement.click();
+
     }
 }
