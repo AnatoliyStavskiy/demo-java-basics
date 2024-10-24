@@ -2,7 +2,7 @@ package by.itacademy.anatoliystavskiy.pages;
 
 public class LoginPage extends BasePage {
     protected String LOGIN_PAGE = BASE_URL + "/форма логина";
-    String title = "Форма логина";
+    private String title = "Форма логина";
 
     public String getTitle() {
         return title;
